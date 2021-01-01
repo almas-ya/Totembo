@@ -1,0 +1,1 @@
+"use strict";function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var Human=function Human(obj){_classCallCheck(this,Human),this.name=obj.name,this.gender=obj.gen},x=new Human({name:"\u0412\u0430\u0441\u044F",gen:"m"});

@@ -1,0 +1,21 @@
+$Montserrat: ("Montserrat", "Regular", 400),
+("Montserrat", "Bold", 700),
+('fontawesome', "duotone", 900),
+('fontawesome', "light", 300);
+
+@each $family,
+$name,
+$weight in $Montserrat {
+    @font-face {
+        font-family: $family;
+        src: url("../fonts/#{$family}/#{$family}-#{$name}.ttf");
+        font-weight: $weight;
+    }
+}
+
+$white: #fff;
+$black: #000;
+$grey: #c4c4c4;
+$light-grey: #e1e1e1;
+$main:#f1f1f1;
+$light-black: #323232;

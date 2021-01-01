@@ -1,0 +1,15 @@
+header.header
+    nav.nav.container
+        .nav__menu
+            ul.menu
+                -var links = ["Часы", "Кольца", "Серьги", "Браслеты", "Клатчи", "Цепочки"]
+                 each val in links 
+                    li
+                        a(href="#").menu__link= val
+            .nav__icons
+                a(href="#").navses
+                    span.menu__icon.icon__like
+                a(href="#").navses
+                    span.menu__icon.icon__bag
+                a(href="#").navses
+                    span.menu__icon.icon__person

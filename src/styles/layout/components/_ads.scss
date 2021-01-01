@@ -1,0 +1,22 @@
+.ads {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 0;
+    &__lang{
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 18px;
+        color: $light-black;
+    }
+    &__icon{
+        font-size: 21px;
+        line-height: 20px;
+    }
+}
+.logo{
+    color: $light-black;
+    font-weight: 900;
+    font-size: 32px;
+    text-transform: uppercase;
+}

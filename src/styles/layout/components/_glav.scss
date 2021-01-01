@@ -1,0 +1,84 @@
+.glav__main {
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.main {
+    position: relative;
+    background: $light-grey;
+    max-width: 740px;
+    width: 100%;
+    padding: 20px 27px 181px 13px;
+
+    &__info {
+        margin-bottom: 62px;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+    }
+
+    &__icon {
+        line-height: 18px;
+        font-size: 23px;
+        background: $white;
+        border-radius: 8px;
+        padding: 16px;
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    &__content-info {
+        margin-left: 40px;
+    }
+
+    &__content-title {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+
+    &__content-desc {
+        font-size: 18px;
+    }
+
+    &__other {
+        position: relative;
+        background: $light-grey;
+        max-width: 370px;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+        height: 420px;
+    }
+
+    &__other:first-child{
+        margin-bottom: 30px;
+    }
+
+    &__other-info {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        margin-bottom: 32px;
+    }
+
+    &__other-img{
+        margin: 0 30px 0 20px;
+    }
+}
+
+.discount__info {
+    background: $light-black;
+    color: $white;
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-size: 20px;
+    display: inline-block;
+}

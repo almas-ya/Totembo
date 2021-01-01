@@ -1,0 +1,45 @@
+.nav{
+    padding-left: 0;
+    padding-right: 0;
+    &::before, &::after{
+        content: '';
+        background: $grey;
+        height: 1px;
+        display: block;
+        width: 100%;
+    }
+}
+.nav__menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    @include media($size: $md){
+        .menu{
+            display: block;
+        }
+    }
+}
+.menu{
+    display: flex;
+    margin: 20px 0;
+    &__link{
+        margin-right: 30px;
+        font-weight: 400;
+        color: $light-black;
+        padding: 10px;
+        transition: 0.5s;
+    }
+    &__link:hover{
+        color: $white;
+        background: $black;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    &__icon{
+        line-height: 19px;
+        font-size: 24px;
+        margin-left: 30px;
+        padding: 10px;
+    }
+}

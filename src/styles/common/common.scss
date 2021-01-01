@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: "Montserrat";
+    background: $main;
+}
+
+.container {
+    @include container()
+}
+
+.row {
+    @include row
+}
+
+::before,
+::after {
+    font-family: "fontawesome";
+}
+
+.icon {
+    &__search::before {
+        content: '\f002';
+        color: $black;
+        font-weight: 300;
+    }
+
+    &__like::before {
+        content: '\f004';
+        color: $black;
+        font-weight: 300;
+    }
+
+    &__bag::before {
+        content: '\f290';
+        color: $black;
+        font-weight: 300;
+    }
+
+    &__person::before {
+        content: '\f406';
+        color: $black;
+        font-weight: 300;
+    }
+}
